@@ -1,0 +1,21 @@
+-We will need an external 32.768kHz clock connected to the MAX30003's FCLK pin to run
+- Structure of the code
+    - Wiring
+    - Settings
+    - HAL
+    - Drivers
+    - Buffering
+    - DSP
+    - Telemetry
+    - Phases
+
+- What is platformIO and how does it fit in the system
+    - It is what will compile everything to send it to the board
+    - The code is made with an Arduino framework to borrow arduino functions to make the code   
+    easier to build
+    - PlatformIO also helps make the code readable by the specific ARM architecture
+
+- Check all the pinouts for the Feather in baord_config.h and see how they match the 
+    datasheet
+
+
